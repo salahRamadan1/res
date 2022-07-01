@@ -1,0 +1,75 @@
+body,html {
+  overflow-y: hidden;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  transition: all 1s;
+}
+.nav-link {
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  list-style-type: none;
+  text-decoration: none;
+  border: solid white 2px;
+  border-radius: 50% 50%;
+  padding: 10px;
+  transition: all 0.5s;
+  background-color: blanchedalmond;
+  color: green;
+}
+.dropdown-toggle:hover {
+  background-color: #ffc107;
+  color: black !important;
+}
+.dropdown-item {
+  cursor: pointer;
+}
+.iconNav {
+  font-size: 1.5rem;
+  padding: 6px;
+  border: solid 2px white;
+  margin-left: 5px;
+  border-radius: 50% 50%;
+  color: white;
+  cursor: pointer;
+}
+.imgNav {
+  width: 50px;
+}
+#header {
+  background-image: url(../img/Singapore-Restaurant-Header-Image.jpg);
+  height: 80vh;
+  background-position: center;
+  background-size: cover ;
+  background-clip: border-box;
+}
+.iconOne {
+  color: red;
+}
+/* endHeader */
+#one {
+  background-color: bisque;
+}
+.imgApi {
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+/* *** */
+.loading {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  background: linear-gradient(-32deg, rgb(69, 104, 220), rgb(176, 106, 179));
+}
